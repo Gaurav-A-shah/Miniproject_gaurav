@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Handeling" thread-count="2" parallel="tests">
+	<test name="chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="handeling.HandelAlertsPopupConfirmBox" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="handeling.HandelAlertsPopupConfirmBox" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
